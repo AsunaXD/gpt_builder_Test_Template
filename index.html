@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KENLY DÉCO</title>
+  <title>{{COMPANY_NAME}}</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
@@ -15,7 +15,7 @@
   <header>
     <div class="container">
       <div class="logo">
-        <a href="index.html"><img src="images/logo.png" alt="KENLY DÉCO"></a>
+        <a href="index.html"><img src="{{LOGO}}" alt="{{COMPANY_NAME}}"></a>
       </div>
     </div>
   </header>
@@ -25,13 +25,13 @@
     <div class="hero-overlay"></div>
     <div class="swiper hero-slider">
       <div class="swiper-wrapper">
-        <div class="swiper-slide hero-slide"><img src="images/1.jpg" alt="Slide 1"></div>
-        <div class="swiper-slide hero-slide"><img src="images/2.jpg" alt="Slide 2"></div>
-        <div class="swiper-slide hero-slide"><img src="images/3.jpg" alt="Slide 3"></div>
-        <div class="swiper-slide hero-slide"><img src="images/4.jpg" alt="Slide 4"></div>
-        <div class="swiper-slide hero-slide"><img src="images/5.jpg" alt="Slide 5"></div>
-        <div class="swiper-slide hero-slide"><img src="images/6.jpg" alt="Slide 6"></div>
-        <div class="swiper-slide hero-slide"><img src="images/7.jpg" alt="Slide 7"></div>
+        <div class="swiper-slide hero-slide"><img src="{{PHOTO1}}" alt="Slide 1"></div>
+        <div class="swiper-slide hero-slide"><img src="{{PHOTO2}}" alt="Slide 2"></div>
+        <div class="swiper-slide hero-slide"><img src="{{PHOTO3}}" alt="Slide 3"></div>
+        <div class="swiper-slide hero-slide"><img src="{{PHOTO4}}" alt="Slide 4"></div>
+        <div class="swiper-slide hero-slide"><img src="{{PHOTO5}}" alt="Slide 5"></div>
+        <div class="swiper-slide hero-slide"><img src="{{PHOTO6}}" alt="Slide 6"></div>
+        <div class="swiper-slide hero-slide"><img src="{{PHOTO7}}" alt="Slide 7"></div>
       </div>
       <div class="swiper-pagination"></div>
       <div class="swiper-button-next"></div>
@@ -39,19 +39,17 @@
     </div>
 
     <div class="hero-content">
-      <h1>Bienvenue chez KENLY DÉCO</h1>
-      <p>Fabricant d'objets décoratifs uniques en leur genre</p>
+      <h1>Welcome to {{COMPANY_NAME}}</h1>
+      <p>{{TAGLINE}}</p>
     </div>
   </section>
 
   <!-- About Section -->
   <section id="about" class="about">
     <div class="container">
-      <h2>À propos de nous</h2>
+      <h2>About Us</h2>
       <p>
-        Chez Kenly Déco, nous sommes passionnés par l'art de la décoration. Spécialisés dans la fabrication de vases et d'objets décoratifs uniques, nous allions créativité et savoir-faire artisanal pour offrir des pièces qui embellissent votre intérieur. Chaque création est soigneusement conçue pour apporter une touche d'élégance et de style à votre espace.
-
-        Explorez notre univers et laissez-vous inspirer par nos créations intemporelles qui ajoutent charme et caractère à chaque pièce de votre maison.
+        {{COMPANY_NAME}} is passionate about the art of decoration. We specialize in creating unique decorative objects that combine creativity and craftsmanship. Our mission is to add elegance and style to your home.
       </p>
     </div>
   </section>
@@ -59,15 +57,15 @@
   <!-- Services Section -->
   <section id="services" class="services">
     <div class="container">
-      <h2>Nos Produits</h2>
+      <h2>Our Products</h2>
       <div class="service-items">
         <div class="service-item">
-          <h3>Poterie</h3>
-          <p>Des pièces façonnées à la main, alliant fonctionnalité et esthétique.</p>
+          <h3>Pottery</h3>
+          <p>Handcrafted pieces blending functionality with aesthetics.</p>
         </div>
         <div class="service-item">
-          <h3>Objets décoratifs</h3>
-          <p>Des créations uniques qui rehaussent l’élégance de votre espace.</p>
+          <h3>Decorative Items</h3>
+          <p>Unique creations that enhance the elegance of your space.</p>
         </div>
       </div>
     </div>
@@ -76,15 +74,15 @@
   <!-- Gallery Section -->
   <section id="gallery" class="gallery">
     <div class="container">
-      <h2>Galerie</h2>
+      <h2>Gallery</h2>
       <div class="gallery-grid">
-        <div class="gallery-item"><img src="images/1.jpg" alt="Gallery Image 1" onclick="openLightbox('images/1.jpg')"></div>
-        <div class="gallery-item"><img src="images/2.jpg" alt="Gallery Image 2" onclick="openLightbox('images/2.jpg')"></div>
-        <div class="gallery-item"><img src="images/3.jpg" alt="Gallery Image 3" onclick="openLightbox('images/3.jpg')"></div>
-        <div class="gallery-item"><img src="images/4.jpg" alt="Gallery Image 4" onclick="openLightbox('images/4.jpg')"></div>
-        <div class="gallery-item"><img src="images/5.jpg" alt="Gallery Image 5" onclick="openLightbox('images/5.jpg')"></div>
-        <div class="gallery-item"><img src="images/6.jpg" alt="Gallery Image 6" onclick="openLightbox('images/6.jpg')"></div>
-        <div class="gallery-item"><img src="images/7.jpg" alt="Gallery Image 7" onclick="openLightbox('images/7.jpg')"></div>
+        <div class="gallery-item"><img src="{{PHOTO1}}" alt="Gallery Image 1" onclick="openLightbox('{{PHOTO1}}')"></div>
+        <div class="gallery-item"><img src="{{PHOTO2}}" alt="Gallery Image 2" onclick="openLightbox('{{PHOTO2}}')"></div>
+        <div class="gallery-item"><img src="{{PHOTO3}}" alt="Gallery Image 3" onclick="openLightbox('{{PHOTO3}}')"></div>
+        <div class="gallery-item"><img src="{{PHOTO4}}" alt="Gallery Image 4" onclick="openLightbox('{{PHOTO4}}')"></div>
+        <div class="gallery-item"><img src="{{PHOTO5}}" alt="Gallery Image 5" onclick="openLightbox('{{PHOTO5}}')"></div>
+        <div class="gallery-item"><img src="{{PHOTO6}}" alt="Gallery Image 6" onclick="openLightbox('{{PHOTO6}}')"></div>
+        <div class="gallery-item"><img src="{{PHOTO7}}" alt="Gallery Image 7" onclick="openLightbox('{{PHOTO7}}')"></div>
       </div>
     </div>
 
@@ -98,12 +96,12 @@
   <!-- Contact Section -->
   <section id="contact" class="contact">
     <div class="container">
-      <h2>Contactez-nous</h2>
+      <h2>Contact Us</h2>
       <div class="contact-info">
-        <p><strong>Téléphone:</strong> (+237) 687164932 / 670316873</p>
-        <p><strong>Email:</strong> delijahdonfeuth21@gmail.com</p>
-        <p><strong>Adresse:</strong> 3°48'49.6"N 11°28'23.2"E</p>
-        <p><strong>Site Web:</strong> <a href="https://www.kenlydeco.cm" target="_blank">www.kenlydeco.cm</a></p>
+        <p><strong>Phone:</strong> {{PHONE}}</p>
+        <p><strong>Email:</strong> {{EMAIL}}</p>
+        <p><strong>Address:</strong> {{ADDRESS}}</p>
+        <p><strong>Website:</strong> <a href="{{WEBSITE}}" target="_blank">{{WEBSITE}}</a></p>
       </div>
       <div class="map-container">
         <iframe width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""
@@ -116,9 +114,7 @@
   <!-- Footer Section -->
   <footer>
     <div class="container">
-      <p>&copy; 2025 KENLY DÉCO. Tous droits réservés.</p>
-      <p>Powered by QOGNITIV TECHNOLOGIES CMR SARL - NIU: M022217038041C - BP 6337 Yaoundé Centre-Ville, CAPITOLE</p>
-      <p>RIB: 12003 11004 15856304010 | Tél: +237 676462797</p>
+      <p>&copy; 2025 {{COMPANY_NAME}}. All rights reserved.</p>
     </div>
   </footer>
 
